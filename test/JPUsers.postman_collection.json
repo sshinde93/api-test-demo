@@ -15,7 +15,7 @@
 						"id": "9a941761-8d5a-4ead-b688-1bc8e741193c",
 						"exec": [
 							"pm.test(\"Response Length is 10\", function () {",
-							"    pm.expect(pm.response.json().length).to.eql(11);",
+							"    pm.expect(pm.response.json().length).to.eql(10);",
 							"});",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
