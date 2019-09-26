@@ -1,0 +1,11 @@
+{
+  "name": "demo-api-test",
+  "version": "1.0.0",
+  "description": "API Testing",
+  "main": "index.js",
+  "scripts": {
+    "dev-api": "newman run test/JPUsers.postman_collection.json -k"
+  },
+  "author": "Sayali Shinde",
+  "license": "ISC"
+}
