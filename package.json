@@ -4,7 +4,7 @@
   "description": "API Testing",
   "main": "index.js",
   "scripts": {
-    "dev-api": "newman run test/JPUsers.postman_collection.json -k"
+    "dev-api": "newman run test/JPUsers.postman_collection.json -k --reporters junit --reporter-junit-export outputfile.xml"
   },
   "author": "Sayali Shinde",
   "license": "ISC"
